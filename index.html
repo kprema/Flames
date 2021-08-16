@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<title>Flames Game Online Code in Javascript</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type='text/javascript' src='flames.js'></script>
+	</head>
+	<body>
+		<div class='resp_code'>
+    <div align='center'><h2>Love FLAMES Game Online</h2></div>
+    <form name=first>
+            <div class='love' id='maindiv'>
+               <div class='group' style='padding:15px;'>
+                    <div class='p_name group'>
+                        <b>Your Name</b>
+                        <input value='' name=name onkeyup=checnum(this) type=text class='txt' id='yname'>
+                    </div>    <br>              
+                    <div class='group p_name' align='center'> <b>Partner Name </b>                                   
+                        <input value='' name=name1 onkeyup=checnum(this) type=text class='txt' id='pname'>
+                    </div>
+					 <div name=n1 id=nam1></div>
+					<div style='font-weight:bold;' id='msg'></div>
+                </div>
+                <div class='but_por'>
+                    <input name=calculate type=button value=FLAMES onclick=calc() class='buttonMini'>
+                    <input type=reset value=Reset onclick='clear_all()' class='buttonMini'>
+			<span  align='center' style="font-size: 10px;color: #dadada;" id="dumdiv">
+                <a href="https://www.hscripts.com" id="dum" style="font-size: 10px;color: #dadada;text-decoration:none;color: #dadada;">&copy;h</a>
+                </span>
+                </div>
+            </div>
+    
+            <div id='tablid' class='clearfix'>
+                <div class='group' align='center'>
+                    <div class='love_result'>
+                        <span name=n1 id=nam1></span>
+                        <img name=pic1 id=pic1 width=0 height=0 src=image/loading.gif>
+                    </div>
+                </div>
+            </div>
+    </form>
+</div>
+	</body>
+</html>
